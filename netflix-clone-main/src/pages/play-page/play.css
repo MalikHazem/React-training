@@ -1,0 +1,13 @@
+.play-area,
+.play-area {
+  height: 100vh;
+  width: 100%;
+}
+.go-back {
+  z-index: 100;
+  position: absolute;
+  background: none;
+
+  left: 50px;
+  top: 30px;
+}

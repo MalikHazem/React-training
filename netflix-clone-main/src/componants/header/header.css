@@ -1,0 +1,118 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #141414;
+  /* background-color: transparent; */
+  width: 100%;
+  height: 71px;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  position: fixed;
+  z-index: 100000000000000;
+  top: 0;
+  transition: 0.5s;
+}
+.left-nav {
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.header img {
+  width: 100%;
+  height: 50px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  position: relative;
+  transition: 0.5s;
+}
+.header a::before {
+  position: absolute;
+  content: "";
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #e50914;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+.header a:hover::before {
+  width: 100%;
+}
+.header a:hover {
+  font-weight: bold;
+  color: #e50914;
+}
+.search-input.after {
+  background-color: #2c2b2b;
+}
+.search-input {
+  background-color: transparent;
+  width: 230px;
+  position: relative;
+  padding: 8px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  /* border: 1px solid #eee; */
+}
+.search-input input {
+  position: relative;
+  width: 100%;
+  background-color: #2c2b2b;
+  outline: none;
+  border: none;
+  width: 170px;
+  margin-left: 15px;
+  color: #fff;
+}
+
+.search-icon {
+  position: absolute;
+  content: "";
+  top: 50%;
+  margin-top: -10px;
+  /* left: 5px; */
+  right: 5px;
+  transition: 0.5s;
+}
+.search-icon.before {
+  transform: translateX(0);
+}
+.search-icon.after-click {
+  transform: translateX(-190px);
+}
+
+.before-click {
+  /* display: none !important; */
+}
+
+.logOut {
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  background-color: transparent;
+  font-size: 14px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  color: #fff;
+  gap: 20px;
+}
+.colored-back {
+  background-color: #141414 !important;
+}

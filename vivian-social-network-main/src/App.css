@@ -1,0 +1,33 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.icon-button {
+  appearance: none;
+  background-color: unset;
+  border: unset;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #4273ad;
+  font-weight: 700;
+}
+
+.icon-button>svg {
+  margin-right: 5px;
+  color: #6eacf4;
+}
+
+.icon-button:hover>svg {
+  color: #4273ad;
+}
+
+.icon-button:active>svg {
+  position: relative;
+  top: 1px;
+}

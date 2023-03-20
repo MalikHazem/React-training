@@ -1,0 +1,32 @@
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 15px;
+}
+
+.author>.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.author>.info>h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.author>.info>span {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.author>.info>span>a {
+  color: #444;
+  text-decoration: none;
+}
+
+.author>.info>span>a:hover {
+  text-decoration: underline;
+}

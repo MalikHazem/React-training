@@ -1,0 +1,28 @@
+.top-5 .topfive-position-img {
+  content: "";
+  position: absolute;
+  height: 200px;
+  width: 180px;
+  left: 80px;
+  z-index: 100;
+  top: -10px;
+  object-fit: fill;
+}
+.topfive-position {
+  font-size: 15.5rem;
+  color: #fff;
+  z-index: 10;
+}
+.lists-trend.topfive {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+}
+.top-5 {
+  display: flex;
+  /* justify-content: space-evenly; */
+  gap: 70px;
+  /* margin-left: -50px; */
+}

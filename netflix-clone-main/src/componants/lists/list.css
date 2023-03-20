@@ -1,0 +1,189 @@
+.List {
+  padding: 50px;
+  gap: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* min-height: fit-content; */
+  /* margin-bottom: 500px; */
+}
+.category-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  position: static;
+}
+.category-group h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.lists-trend:hover {
+  cursor: pointer;
+}
+.hover-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+  height: 350px;
+  box-sizing: border-box;
+  background-color: #141414;
+  border-radius: 10px;
+}
+.hover-info video {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  position: relative;
+}
+.hover-info .btns-hover {
+  margin: 0 15px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 40%;
+}
+.show-info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.match {
+  color: #46d369;
+}
+.hover-info .btns-hover .left {
+  display: flex;
+  gap: 15px;
+}
+.hover-info .btns-hover .right {
+  align-self: flex-end;
+}
+.hover-info .btns-hover button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #989a9b;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+}
+.age,
+.hd {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-size: 13px;
+}
+.hd {
+  font-size: 8px;
+  align-items: flex-start;
+  height: fit-content;
+}
+
+li {
+  list-style: none;
+}
+.type-genre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.hover-info .btns-hover .play-btn {
+  background-color: #fff;
+}
+.list-group {
+  display: flex;
+  gap: 15px;
+  bottom: 0;
+}
+.lists-trend {
+  position: relative;
+}
+.hover-info {
+  box-shadow: 0px 0px 8px 3px rgb(46, 46, 46);
+  content: "";
+  position: absolute;
+  z-index: 100;
+  top: -50px;
+  /* margin-top: -50%; */
+  left: -20px;
+}
+.lists-trend img {
+  width: 230px;
+  height: 136px;
+}
+.arrow-right-icon {
+  position: absolute;
+  content: "";
+  color: rgb(95, 92, 92);
+  font-size: 1.75rem;
+  z-index: 10000;
+  font-weight: 100;
+  transition: 0.7s;
+  filter: brightness(60%);
+}
+.category-group:first-of-type .arrow-right-icon {
+  bottom: 42%;
+  margin-bottom: -16px;
+  left: 62%;
+}
+.category-group:nth-of-type(2) .arrow-right-icon {
+  bottom: 39%;
+  margin-bottom: -16px;
+  right: 19%;
+}
+.category-group:nth-of-type(3) .arrow-right-icon {
+  bottom: 42%;
+  margin-bottom: -16px;
+  right: 5%;
+}
+.category-group:nth-of-type(4) .arrow-right-icon {
+  bottom: 42%;
+  margin-bottom: -16px;
+  right: 6%;
+}
+
+.arrow-right-icon:hover {
+  font-size: 2rem;
+  filter: brightness(100%);
+}
+
+.lists-trend {
+  position: relative;
+}
+
+.lists-trend.movies .netflix-logo-position {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  z-index: 10;
+  width: 50px !important;
+  height: 50px !important;
+  object-fit: contain;
+}
+
+.show-name {
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 15px;
+  text-align: left;
+}
+
+.fill-background {
+  background-color: #989a9b !important;
+  color: #141414;
+}
+
+.fill-background span {
+  color: #141414;
+}

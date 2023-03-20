@@ -1,0 +1,174 @@
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+
+  width: 100%;
+  font-family: monospace;
+}
+.mainDiv .adminInfo {
+  display: flex;
+  width: 10%;
+  height: 150px;
+  justify-content: flex-end;
+  background-color: rgb(35, 96, 170);
+}
+.headbtn {
+  display: flex;
+}
+.headbtn .but2 {
+  margin-left: 1000px;
+  margin-top: 12px;
+  margin-bottom: 18px;
+  padding: 9px;
+  width: 7%;
+  background-color: rgb(35, 96, 170);
+  font-family: monospace;
+  align-content: center;
+  color: #fff;
+}
+.mainDiv .adminInfo .userImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.head {
+  background-color: rgb(243 243 246);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 85px;
+  text-align-last: start;
+}
+.head .but1 {
+  margin-left: 30px;
+  margin-top: 12px;
+  margin-bottom: 18px;
+  padding: 9px;
+  width: 10%;
+  background-color: rgb(35, 96, 170);
+  font-family: monospace;
+  color: #fff;
+}
+.head .manage {
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 12px;
+  width: 19%;
+  font-size: 19px;
+  font-family: monospace;
+  color: #5c665c;
+}
+.moviesCards {
+  background-color: #fff;
+  width: 97%;
+  margin-left: 29px;
+  height: 95%;
+  margin-bottom: 10px;
+}
+.moviesCards .spans {
+  display: flex;
+  border-top: 2px solid #cecece;
+  border-bottom: 2px solid #cecece;
+  margin-top: 10px;
+  justify-content: space-between;
+  padding: 15px;
+  color: #5a5656;
+  font-size: 15px;
+  font-family: monospace;
+}
+.moviesCards .title{
+  font-family: monospace;
+}
+.moviesCards .spans .mTit {
+  margin-left: 160px;
+}
+.moviesCards .spans .mGen {
+  margin-right: 68px;
+}
+
+.moviesCards .spans .mOp {
+  margin-right: 15px;
+}
+.moviesCards .title {
+  padding: 18px;
+  font-size: 19px;
+  color: #5a5656;
+  padding: 16px;
+}
+
+.card1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #cecece;
+}
+.card1 .movImg {
+  width: 13%;
+  height: 130px;
+  margin-left: 60px;
+  margin-bottom: 6px;
+}
+.card1 .no {
+  margin-left: 13px;
+  margin-top: 24px;
+  color: #837e7e;
+}
+.card1 .tit {
+  width: 20%;
+  height: 5%;
+ 
+  margin-left: 68px;
+
+  margin-top: 24px;
+  color: #837e7e;
+}
+.card1 .type {
+  width: 10%;
+  height: 5%;
+  margin-top: 24px;
+  color: #837e7e;
+  
+  margin-right: 127px;
+
+}
+.card1 .actions1 {
+  margin-top: 24px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 2px;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+.card1 .actions1 .bt1 {
+  width: 50px;
+  height: 40px;
+  color: #fff;
+  background-color: grey;
+  border-radius: 5px;
+  padding: 10px;
+}
+.card1 .actions1 .bt2 {
+  width: 50px;
+  height: 40px;
+  color: #fff;
+  background-color: rgb(35, 96, 170);
+  border-radius: 5px;
+  padding: 10px;
+}
+.card1 .actions1 .bt3 {
+  width: 60px;
+  height: 40px;
+  color: #fff;
+  background-color: rgb(177, 23, 23);
+  border-radius: 5px;
+  padding: 10px;
+}
+button {
+  border: none;
+}
+

@@ -1,0 +1,11 @@
+.popular {
+  position: absolute;
+  bottom: -160px;
+  display: flex;
+  gap: 20px;
+  /* bottom: -30px; */
+}
+/* .pop {
+  margin-top: 30px;
+  margin-bottom: -30px;
+} */

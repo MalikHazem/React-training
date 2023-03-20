@@ -1,0 +1,164 @@
+.oneItem .show-info {
+  justify-content: flex-start;
+  gap: 15px;
+  font-size: 12px;
+  margin-top: -10px;
+}
+
+.Item-info {
+  padding: 50px;
+}
+.Item-info h1 {
+  width: 100%;
+  text-align: left;
+  margin: 0;
+}
+.actions-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  cursor: pointer;
+}
+.actions,
+p {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+.oneItem {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  min-height: 75vh;
+}
+.episodes h3 {
+  text-align: left;
+}
+.episodes-sec {
+  padding: 0 50px;
+}
+/*
+.Item-info {
+  margin: 50px auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.Item-info * {
+  width: 100%;
+}
+.btns.items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Item-info button {
+  width: 250px;
+}
+
+
+*/
+.show-poster {
+  right: 0;
+  top: 0;
+  position: absolute;
+  height: 75vh;
+  width: 70%;
+  object-fit: cover;
+}
+
+.upperlayer {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 75vh;
+  width: 100%;
+  background-image: linear-gradient(to left, transparent, rgb(40, 36, 36));
+}
+.one-item-info h1 {
+  width: 100%;
+}
+.one-item-info p {
+  margin: 20px 0;
+}
+.cast {
+  margin: 20px 0 5px;
+}
+.one-item-info .btns {
+  margin: 10px 0;
+}
+
+.one-item-info {
+  position: absolute;
+  z-index: 1000;
+  top: 100px;
+  left: 100px;
+  text-align: left;
+  /* display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%; */
+}
+
+.oneItem .btns button:first-child {
+  background-color: #e50914;
+  color: #fff;
+}
+.oneItem .btns button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.oneItem .btns button:nth-child(2) {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid;
+}
+.oneItem .btns button:nth-child(3) {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.cast span:first-child,
+.genre span:first-child {
+  font-size: 18px;
+}
+.cast,
+.genre {
+  text-transform: capitalize;
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 5px;
+  align-items: center;
+  /* font-size: 12px; */
+  /* width: 250px; */
+  gap: 8px;
+}
+
+.episodes {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.epi {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.epi img {
+  width: 150px;
+  height: 200px;
+}
+
+.oneItem-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}

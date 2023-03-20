@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+/* .logo {
+  height: 100px;
+  width: 150px;
+  margin-right: 1150px;
+} */
+.b {
+  background: url("../../assets/imgs/back.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.wrapper {
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  margin: auto;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+  padding: 30px;
+  background-color: rgba(10, 10, 10, 0.6);
+  border-radius: 10px;
+  padding: 30px 70px 40px 70px;
+  margin-top: 80px;
+}
+
+.wrapper .title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #e50914;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: monospace;
+}
+
+.wrapper .form {
+  width: 100%;
+}
+.multiSel .sel {
+  margin-left: 20px;
+  margin-right: 30px;
+  width: 95%;
+  font-size: 15px;
+  padding: 12px 10px;
+  border-radius: 3px;
+  color: #626463;
+  transition: all 0.3s ease;
+}
+.wrapper .form .multiSel label{
+ 
+  width: 200px;
+  color: #fff;
+  margin-right: 10px;
+  font-size: 14px;
+}
+.wrapper .form .inputField,
+.wrapper .form .multiSel  {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.wrapper .form .inputFieldCast .Cast {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-right: 10px;
+  width: 280px;
+}
+
+.wrapper .form .inputField label 
+{
+   width: 200px;
+   color: #fff;
+   margin-right: 10px;
+   font-size: 14px;
+}
+.wrapper .form .inputFieldCast {
+  display: flex;
+  justify-items: stretch;
+ 
+}
+.wrapper .form .inputFieldCast label{
+  width: 200px;
+  color: #fff;
+  margin-right: 10px;
+ font-size: 14px;
+ margin-right: 18px;
+ margin-top: 30px;
+}
+
+.wrapper .form .inputFieldCast .Cast .inputCast{
+
+  outline: none;
+  border: 1px solid #fff;;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+
+  transition: all 0.3s ease;
+}
+.wrapper .form .inputField .input,
+.wrapper .form .inputField .textarea {
+  width: 100%;
+  outline: none;
+  border: 1px solid #fff;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.wrapper .form .inputField .textarea {
+  width: 100%;
+  height: 125px;
+  resize: none;
+}
+
+.wrapper .form .inputField .btn {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 0px;
+  background-color: #7e8482;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+}
+
+.wrapper .form .inputField .btn:hover {
+  background: #e50914;
+}
+
+.wrapper .form .inputField:last-child {
+  margin-bottom: 0;
+}

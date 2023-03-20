@@ -1,0 +1,11 @@
+.selected {
+  width: 70%;
+  height: 1000px;
+  background-color: #141414;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  margin-left: -35%;
+  z-index: 10000000000;
+  border-radius: 15px;
+}

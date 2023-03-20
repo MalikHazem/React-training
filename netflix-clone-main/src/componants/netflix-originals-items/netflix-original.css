@@ -1,0 +1,13 @@
+.originals {
+  width: 200px;
+  height: 300px !important;
+}
+.originals .netflix-logo-position {
+  width: 60px !important;
+  height: 60px !important;
+}
+.originals .portrait-img {
+  height: 100%;
+  width: 100%;
+  /* object-fit: cover; */
+}

@@ -1,0 +1,51 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 200px;
+  gap: 20px;
+}
+.social {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.social a {
+  margin-right: 1rem;
+}
+
+.service {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.service .servlink {
+  text-align: left;
+  width: calc((100% - 150px) / 4);
+}
+.servlink a {
+  text-decoration: none;
+  color: #656565;
+}
+.button {
+  background-color: #141414;
+  color: #656565;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+.button button {
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  border: 1px solid #656565;
+  background-color: #141414;
+  color: #656565;
+}
+.button p {
+  justify-content: flex-start;
+  text-align: left;
+}
